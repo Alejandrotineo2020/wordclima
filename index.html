@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>worldclima</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="weather-container">
+        <h2>worldclima</h2>
+        <input type="text" id="city" placeholder="Enter city" />
+        <button onclick="getWeather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon" />
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+
+        
+        <div id="author" style="margin-top:20px; color:#fff; text-align:center; font-size:14px;">
+            Hecho  por <a href="https://www.youtube.com/@AlejandroMTineoMoreta" target="_blank" style="color:#000000; text-decoration:none;">Alejandro M. Tineo Moreta</a>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
